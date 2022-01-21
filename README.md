@@ -1,6 +1,6 @@
 # Metodos Computacionales 1
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/diegour1/CompMetodosComputacionales/main)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/diegour1/MetodosComputacionales1/HEAD)
 
 Material del curso de Métodos Computacionales 1 de Uniandes 2022 10
 
