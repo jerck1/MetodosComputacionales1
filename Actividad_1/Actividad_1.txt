@@ -1,1 +1,62 @@
 
+#Realizar el siguiente tutorial, se recomienda que mientras va haciendo el tutorial abra 
+#su editor de textos y vaya copiando los comandos para tenerlos guardados.
+##############
+# 1. Directorios de Linux:
+pwd
+ls
+ls .
+ls ..
+ls -l
+ls -lrt
+ls /
+##############
+# 2. Asignación de variables:
+a=1
+b=2
+c='Hoy es lunes'
+echo $a
+echo $b
+echo $c
+##############
+# 3. Operaciones con variables:
+echo $(($a+$b))
+## ¿qué pasa si?
+echo $($a+$b)
+##
+echo $(($a+1))
+##############
+# 4. Visualizar un archivo. Usando cd vaya a la carpeta Actividad_1,
+# abra el archivo con las siguientes herramientas: less, more, tail, cat, desde la terminal así:
+less nombre_archivo
+# 5. programa "Hola mundo":
+#Abra un editor de texto como vim o nano desde la terminal. Para nano:
+nano primer_programa.sh
+#desde allí escriba:
+#!/bin/bash
+# declare STRING variable
+msj="Hello World"
+#print variable on a screen
+echo $msj
+######
+#luego dele permisos de ejcución:
+chmod +x primer_programa.sh
+#luego ejecútelo:
+./primer_programa.sh
+#6. expresiones recurrentes:
+##6.1 for:
+for i in {1..5}
+do
+echo $i
+done
+##6.2 if:
+num=1
+if [ "$num" -gt "150" ]
+then
+echo $num
+else
+echo $(($num+50))
+fi
+
+
+
