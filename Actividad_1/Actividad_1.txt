@@ -39,7 +39,7 @@ msj="Hello World"
 #print variable on a screen
 echo $msj
 ######
-#luego dele permisos de ejcución:
+#luego dele permisos de ejecución:
 chmod +x primer_programa.sh
 #luego ejecútelo:
 ./primer_programa.sh
