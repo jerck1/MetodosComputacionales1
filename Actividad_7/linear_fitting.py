@@ -2,6 +2,7 @@
 # Y=A+BX
 ################
 ## Conventions
+##X: List where data are stored
 ## SS:sum of x or y squared
 ## S:sum of x or y
 ## SXY:sum of xi*yi
@@ -38,7 +39,9 @@ def sigma_A(X,Y):
 def sigma_B(X,Y):
 	return  sigma_y(X,Y)*len(X)/delta(X)
 def fit(X,Y):
-    return "y={:.4f}+{:.4f}x".format(A(X,Y),B(X,Y))
+    return "y={:.4f}+{}x".format(A(X,Y),B(X,Y))
+#f"y={A(X,Y)}+{B(X,Y)}x"
+#"y={:.4f}+{:.4f}x".format(A(X,Y),B(X,Y))
 	#return "$\sin \\theta_t=({:.2f}\pm{:.2f})\\\\+({:.2f}\pm{:.2f})\sin \\theta_i$".format(A(X,Y),sigma_A(X,Y),B(X,Y),sigma_B(X,Y))
 def y_pred(x,X,Y):
 	a=A(X,Y)
