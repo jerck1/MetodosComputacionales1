@@ -1,0 +1,17 @@
+Variable name	Storage type	Display format	Value label	Variable label
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+inlf	byte    %9.0g                 =1 si participa en el mercado laboral
+horas_esposa 	int     %9.0g 	horas laboradas
+hijos	byte    %9.0g	 	nñmero hijos menores a 6 años
+edad_esposa	byte    %9.0g	edad en años
+educ_esposa	byte    %9.0g	años educacion
+horas_esposo	int     %9.0g	horas laboradas por el esposo
+edad_esposo	byte    %9.0g	años de edad del esposo
+educ_esposo	byte    %9.0g	años educacion esposo
+ingreso	float   %9.0g	 	ingreso del hogar mensual
+exper_esposa	byte    %9.0g	experiencia laboral en años
+d_hijo6	float   %9.0g	 	=1 si tiene al menos un hijo menor de 6 años
+salario_esposa	float	%9.0g	alario laboral por hora
+salario_esposo	float	%9.0g	salario laboral del esposo por hora
+Tipo_empleo	float	%9.0g	 
+Dpto_residencia	byte	%8.0g
