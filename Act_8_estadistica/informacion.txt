@@ -1,6 +1,5 @@
 Variable name	Storage type	Display format	Value label	Variable label
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-inlf	byte    %9.0g                 =1 si participa en el mercado laboral
+inlf	byte    %9.0g	=1 si participa en el mercado laboral
 horas_esposa 	int     %9.0g 	horas laboradas
 hijos	byte    %9.0g	 	nñmero hijos menores a 6 años
 edad_esposa	byte    %9.0g	edad en años
